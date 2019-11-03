@@ -76,7 +76,7 @@ export default {
 
           if (key.trim()) {
             if (key[0] === '#') {
-              row = `//${key.replace(/#/gi, '')}`
+              row = `/* ${key.replace(/#/gi, '')} */`
             } else {
               row = `'${key}': /*[[#{${key}}]]*/,`
             }
