@@ -1,15 +1,14 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Shortener from './views/Shortener.vue'
+import Converter from './views/Converter.vue'
 
 Vue.use(Router)
 
 export default new Router({
   routes: [
     {
-      path: '/',
-      name: 'home',
-      component: Shortener
+      path: '*',
+      component: Converter
     },
   ]
 })

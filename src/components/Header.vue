@@ -20,7 +20,7 @@
     name: 'Header',
     methods: {
       onClick() {
-        //location.href = 'http://wodn4131.cafe24.com/shortener/index.html#/'
+        location.href = "/"
       }
     }
   }
